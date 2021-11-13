@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.title("Webcam image input demo app!!")
+st.title("Webcam image input demo app!")
 
 image_file = st.camera_image_input()
 
