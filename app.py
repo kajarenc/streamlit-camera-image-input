@@ -3,7 +3,7 @@ from PIL import Image
 
 st.title("Webcam image input demo app!")
 
-image_file = st.camera_input("LABEL", help="Help")
+image_file = st.camera_input("LABEL", help="Help Help")
 
 if image_file is not None:
     x = st.slider("ROTATE BY X DEGREE", 0, 360, 0)
